@@ -38,32 +38,32 @@ class MyApp extends StatelessWidget {
         ),
         elevatedButtonTheme: ElevatedButtonThemeData(
           style: ButtonStyle(
-            backgroundColor: WidgetStateColor.resolveWith(
+            backgroundColor: MaterialStateColor.resolveWith(
                 (states) => const Color(0xFFBC764A)),
-            foregroundColor: WidgetStateColor.resolveWith(
+            foregroundColor: MaterialStateColor.resolveWith(
               (states) => Colors.white,
             ),
           ),
         ),
         outlinedButtonTheme: OutlinedButtonThemeData(
           style: ButtonStyle(
-            foregroundColor: WidgetStateColor.resolveWith(
+            foregroundColor: MaterialStateColor.resolveWith(
               (states) => const Color(0xFFBC764A),
             ),
-            side: WidgetStateBorderSide.resolveWith(
+            side: MaterialStateBorderSide.resolveWith(
                 (states) => const BorderSide(color: Color(0xFFBC764A))),
           ),
         ),
         textButtonTheme: TextButtonThemeData(
           style: ButtonStyle(
-            foregroundColor: WidgetStateColor.resolveWith(
+            foregroundColor: MaterialStateColor.resolveWith(
               (states) => const Color(0xFFBC764A),
             ),
           ),
         ),
         iconButtonTheme: IconButtonThemeData(
           style: ButtonStyle(
-            foregroundColor: WidgetStateColor.resolveWith(
+            foregroundColor: MaterialStateColor.resolveWith(
               (states) => const Color(0xFFBC764A),
             ),
           ),
